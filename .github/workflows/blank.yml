@@ -10,4 +10,4 @@ jobs:
 
     steps:        
       - name: yessir
-        run: ls /etc/apt/sources.list.d/debian.sources
+        run: cat /etc/apt/sources.list.d/debian.sources
