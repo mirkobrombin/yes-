@@ -1,0 +1,13 @@
+name: build-yes
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: debian:unstable-20230227-slim
+
+    steps:        
+      - name: yessir
+        run: cat /etc/apt/sources.list
