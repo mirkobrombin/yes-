@@ -10,4 +10,4 @@ jobs:
 
     steps:        
       - name: yessir
-        run: cat /etc/apt/sources.list
+        run: cat /etc/apt.d/sources.list
